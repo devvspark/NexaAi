@@ -145,9 +145,9 @@ const RemoveObject = () => {
               onLoad={() => setImageLoaded(true)} // ✅ fires when fully loaded
             />
             {imageLoaded && ( // ✅ show button only when loaded
-              <button
+              <button 
                 onClick={handleDownload}
-                className="mt-4 w-full bg-[#00AD25] text-white text-sm py-2 rounded-md"
+                className="mt-4 w-full bg-[#00AD25] text-white cursor-pointer text-sm py-2 rounded-md"
               >
                 Download Image
               </button>

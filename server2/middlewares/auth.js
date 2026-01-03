@@ -30,3 +30,5 @@ export const auth=async(req,res,next)=>{
         res.json({success:false,message:error.message});
     }
 }
+
+

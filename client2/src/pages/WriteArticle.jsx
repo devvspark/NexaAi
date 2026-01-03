@@ -156,7 +156,7 @@ const WriteArticle = () => {
             </div>
 
             {/* ✅ Show only when article is generated */}
-            <button onClick={handleDownloadPDF} className="mt-4 w-full bg-[#226BFF] text-white text-sm py-2 rounded-md">
+            <button cursor-pointer onClick={handleDownloadPDF} className="mt-4 w-full bg-[#226BFF] text-white text-sm py-2 cursor-pointer rounded-md">
               Download Pdf
             </button>
           </div>

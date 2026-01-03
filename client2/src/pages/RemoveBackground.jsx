@@ -128,9 +128,9 @@ const RemoveBackground = () => {
               onLoad={() => setImageLoaded(true)} // ✅ fires when fully loaded
             />
             {imageLoaded && ( // ✅ show button only when loaded
-              <button
+              <button cursor-pointer
                 onClick={handleDownload}
-                className="mt-4 w-full bg-[#00AD25] text-white text-sm py-2 rounded-md"
+                className="mt-4 w-full bg-[#00AD25] text-white text-sm py-2 cursor-pointer rounded-md"
               >
                 Download Image
               </button>

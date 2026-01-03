@@ -158,7 +158,7 @@ const BlogTitles = () => {
             </div>
 
             {/* ✅ Show only when content is generated */}
-            <button onClick={handleDownloadPDF}
+            <button cursor-pointer onClick={handleDownloadPDF}
               className=" mt-4 w-full bg-[#226BFF] text-white text-sm py-2 rounded-md cursor-pointer"
             >
               Download PDF

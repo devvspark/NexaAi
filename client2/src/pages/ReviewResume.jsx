@@ -132,9 +132,9 @@ const ReviewResume = () => {
             </div>
 
             {/* ✅ Download button only shows after content is generated */}
-            <button
+            <button cursor-pointer
               onClick={handleDownloadPDF}
-              className="mt-4 w-full bg-[#226BFF] text-white text-sm py-2 rounded-md"
+              className="mt-4 w-full bg-[#226BFF] text-white cursor-pointer text-sm py-2 rounded-md"
             >
               Download Report
             </button>
