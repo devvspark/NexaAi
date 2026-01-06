@@ -159,9 +159,5 @@ Once everything is set up:
 4. Check out the community features
 
 ## Need Help?
-
-If you encounter any issues:
-1. Check the [README.md](./README.md) for more information
-2. Open an issue on GitHub
-3. Review the error messages in your terminal/console
+Message at-7387899429
 
